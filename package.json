@@ -1,7 +1,7 @@
 {
   "name": "myapp",
   "version": "2.0.0",
-  "description": "Node.js authentication with Passport",
+  "description": "Node_app for isp",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
