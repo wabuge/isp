@@ -4,7 +4,7 @@ const path = require ('path')
 const { ensureAuthenticated, forwardAuthenticated } = require('../config/auth');
 
 // Welcome Page
-router.get('/',ensureAuthenticated, (req, res) => res.render('users/login'));
+router.get('/',ensureAuthenticated, forwardAuthenticated, (req, res) => res.render('users/login'));
 
 // Dashboard
 /*router.get('/dashboard', ensureAuthenticated, (req, res) =>
@@ -12,6 +12,14 @@ router.get('/',ensureAuthenticated, (req, res) => res.render('users/login'));
     user: req.user
   })
 );
+*/
+
+//home
+/*
+router.get('/', ensureAuthenticated, (req, res) =>{
+  res.sendFile(path.join(__dirname+ '/dashboard')),{
+    user: req.user}
+})
 */
 //about
 router.get('/dashboard', ensureAuthenticated, (req, res) =>{

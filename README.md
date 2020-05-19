@@ -1,6 +1,10 @@
 # Node.js & Passport Login
 
-This is a user login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.
+This is a ISP site that still under development, feel free to make customes.
+developer:wabuge 
+kennedywabuge@gmail.com. 
+Mombasa
+Kenya 
 
 ### Version: 2.0.0
 
@@ -15,7 +19,7 @@ $ npm start
 # Or run with Nodemon
 $ npm run dev
 
-# Visit http://localhost:5000
+# Visit http://localhost:5030
 ```
 
 ### MongoDB
